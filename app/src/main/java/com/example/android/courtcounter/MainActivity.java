@@ -43,35 +43,35 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    //    Increase the score for Team Aquarius by 1 point.
+    //    Increase the score for Lyrical Beast by 1 point.
 
     public void addOneForTeamA(View v) {
         scoreTeamA = scoreTeamA + 1;
         displayForTeamA(scoreTeamA);
     }
 
-    //    Increase the score for Team Aquarius by 2 points.
+    //    Increase the score for Lyrical Beast by 2 points.
 
     public void addTwoForTeamA(View v) {
         scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
     }
 
-    //    Increase the score for Team Aquarius by 3 points.
+    //    Increase the score for Lyrical Beast by 3 points.
 
     public void addThreeForTeamA(View v) {
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
     }
 
-    //    Increase the score for Team Aquarius by 1 foul.
+    //    Increase the score for Lyrical Beast by 1 foul.
 
     public void team_a_foul(View v) {
         teamAfoul = teamAfoul + 1;
         displayForTeamAfoul(teamAfoul);
     }
 
-    //    Displays the score for Team Scropions.
+    //    Displays the score for Trap Boyz.
 
     public void displayForTeamS(int score) {
         TextView scoreView = findViewById(R.id.team_s_score);
@@ -83,28 +83,28 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    //     Increase the score for Team Scropions by 1 point.
+    //     Increase the score for Trap Boyz by 1 point.
 
     public void addOneForTeamS(View v) {
         scoreTeamS = scoreTeamS + 1;
         displayForTeamS(scoreTeamS);
     }
 
-    //     Increase the score for Team Scropions by 2 points.
+    //     Increase the score for Trap Boyz by 2 points.
 
     public void addTwoForTeamS(View v) {
         scoreTeamS = scoreTeamS + 2;
         displayForTeamS(scoreTeamS);
     }
 
-    //     Increase the score for Team Scropions by 3 points.
+    //     Increase the score for Trap Boyz by 3 points.
 
     public void addThreeForTeamS(View v) {
         scoreTeamS = scoreTeamS + 3;
         displayForTeamS(scoreTeamS);
     }
 
-    //     Increase the score for Team Scropions by 1 foul.
+    //     Increase the score for Trap Boyz by 1 foul.
 
     public void team_s_foul(View v) {
         teamSfoul = teamSfoul + 1;
