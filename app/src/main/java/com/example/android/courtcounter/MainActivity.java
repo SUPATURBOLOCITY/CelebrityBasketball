@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         rg.setVisibility(View.VISIBLE);
     }
 
-    //    Display score for Team Aquarius.
+    //    Display score for Lyrical Beast.
 
     public void displayForTeamA(int score) {
         TextView scoreView = findViewById(R.id.team_a_score);
